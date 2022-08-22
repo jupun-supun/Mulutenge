@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_margin="5dp"
+    android:clickable="false"
+    android:focusable="false">
+
+    <LinearLayout
+        android:id="@+id/edit_ingredients_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginBottom="2dp"
+            android:text="@string/vegetarian"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_ingredients_name"
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM"
+            android:textSize="8sp"
+            android:hint="@string/title"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_ingredients_qua"
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM"
+            android:textSize="8sp"
+            android:hint="@string/title"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

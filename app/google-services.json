@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "782720548602",
+    "project_id": "muluthenge-9c6dc",
+    "storage_bucket": "muluthenge-9c6dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782720548602:android:1495974656133aa8a19343",
+        "android_client_info": {
+          "package_name": "com.muluthenge.thevillagerecipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782720548602-lc98cfuolss7lpsncedgp71h6qlkbv8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT23jNDXA4d3Vu0GIM0hoLxzfb69D2xVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782720548602-lc98cfuolss7lpsncedgp71h6qlkbv8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
